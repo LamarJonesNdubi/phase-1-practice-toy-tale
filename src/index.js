@@ -1,3 +1,5 @@
+//Alright..lets do these...
+
 document.addEventListener('DOMContentLoaded', () => {
   fetchToys();
   setupFormToggle();
@@ -73,7 +75,7 @@ function addNewToy() {
     renderToy(toy);
   });
 
-  // Clear the form fields
+  // These to clear the form fields
   toyForm.reset();
 }
 
@@ -94,3 +96,4 @@ function likeToy(toy) {
     toyCard.querySelector('p').textContent = `${updatedToy.likes} Likes`;
   });
 }
+// ........should have choosen cybersecurity instead
